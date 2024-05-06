@@ -79,7 +79,7 @@ Para validar a integração com a ferramenta Bling, a realização do seguinte p
 - Conferir possíveis relatórios gerados (como de vendas, estoque, pedidos);
 - Repassar os resultados para a equipe, mantendo contato frequente, entre outros.
 
-Alguns testes imprescíndiveis a serem feitos seria, 
+Alguns testes imprescíndiveis a serem aplicados: 
 
 - Conferir a sincronização de produtos entre o e-commerce e a ferramenta Bling;
 - Acompanhar a transmissão de dados, averiguar se as atualizações de estoque refletem corretamente entre o e-commerce e a ferramenta;
@@ -91,7 +91,7 @@ Alguns testes imprescíndiveis a serem feitos seria,
 - Conferir, também, a experiência do usuário, como por exemplo mensagens de erro, se a navegação é intuitiva, se o layout é agradável, etc.;
 - Certificar que as notas fiscais são geradas corretamente no Bling para os pedidos realizados no e-commerce, entre outros.
 
-Os testes serão priorizados com base no critério dos requisitos para o funcionamento do e-commerce e para o cumprimento das obrigações legais relacionadas à gestão de estoque. Algumas ferramentas que servirão de auxílio, seriam
+Os testes serão priorizados com base no critério dos requisitos para o funcionamento do e-commerce e para o cumprimento das obrigações legais relacionadas à gestão de estoque. Algumas ferramentas que poderão servir de auxílio, seriam
 
 1. Testar a interface, utilizando o Selenium por exemplo;
 2. O PostMan poderá ser usado a fim de testar a API;
@@ -106,6 +106,9 @@ Manter a privacidade e a segurança dos dados também é imprescindível, logo, 
 
 A prioridade dos testes varia de acordo com os requisitos pré-estabelecidos, devendo então selecionar uma base a ser atendida, assim poderá ser feita uma hierarquia de prioridades. Realizar os testes levando em consideração diversos contextos também será importante, prevendo falhas e eventuais problemas (como queda de servidor, redução do ping, múltiplos acessos, entre outros).
 
+Já o ambiente dos testes, de preferência realizá-los no ambiente de homologação a fim de evitar maiores desastres. 
+
+Como sempre, a prioridade é a satisfação do cliente e o perfeito funcionamento do sistema, logo, deve-se olhar através da lente do cliente a fim de buscar possíveis melhorias. Manter uma janela aberta para feedback do cliente, como críticas e sugestões, também seria interessante.
 
 > ## Terceiro cenário
 
@@ -128,7 +131,7 @@ Após analisar cuidadosamente os detalhes mencionados acima, nota-se a importân
   - Testar os parâmetros de autenticação e as endpoints do API;
   - Realizar manualmente a atualização do estoque do Mercado Livre, entre outros.
 
-Enfim, a solução do problema vem após a identificação da fonte do erro mencionado. Após a localização do mesmo, poderão ser feitas alterações como ajustes nas configurações de integração, correções de bugs, atualizações de software ou outras ações corretivas específicas que irão variar de acordo com a necessidade da situação.
+Enfim, a solução do problema vem após a identificação da fonte do erro mencionado. Após a localização do mesmo, poderão ser feitas alterações como ajustes nas configurações de integração, correções de bugs, atualizações de software ou outras ações corretivas específicas que irão variar de acordo com a necessidade da situação. Pode-se também entrar em contato com os desenvolvedores, a fim de investigar o próprio código, em busca de possíveis falhas.
 
 > ## Quarto cenário
 
