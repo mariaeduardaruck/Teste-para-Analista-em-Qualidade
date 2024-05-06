@@ -83,6 +83,7 @@ Alguns testes imprescíndiveis a serem aplicados:
 
 - Conferir a sincronização de produtos entre o e-commerce e a ferramenta Bling;
 - Acompanhar a transmissão de dados, averiguar se as atualizações de estoque refletem corretamente entre o e-commerce e a ferramenta;
+- Alterar e validar em tempo real a inserção de novos dados;
 - Testar o fluxo de processamento de pedidos, desde a criação no e-commerce até a sua integração e registro no Bling;
 - Verificar o desempenho da resposta do sistema;
 - Monitorar em tempo real a funcionalidade do Bling;
@@ -126,7 +127,8 @@ Após analisar cuidadosamente os detalhes mencionados acima, nota-se a importân
 
   - Averiguar a sincronização automática de estoque entre o Magazord e o Mercado Livre;
   - Conferir a comunicação entre o ERP Magazord e o Mercado livre;
-  - Validar os dados em tempo real, acompanhar a transmissão de informações do estoque;
+  - Simular uma compra, acompanhar todo o processo da venda;
+  - Alterar os dados do estoque no ERP e validar em tempo real se a transmissão de informações fluiu corretamente;
   - Identificar se os dados estão sendo formatados corretamente antes de serem enviados para o Mercado Livre;
   - Testar os parâmetros de autenticação e as endpoints do API;
   - Realizar manualmente a atualização do estoque do Mercado Livre, entre outros.
